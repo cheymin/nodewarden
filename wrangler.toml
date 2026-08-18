@@ -17,7 +17,7 @@ crons = [ "*/5 * * * *" ]
 
 [[d1_databases]]
 binding = "DB"
-database_name = "nodewarden-db"
+database_name = "vaulwarden-nodewarden"
 
 [[durable_objects.bindings]]
 name = "NOTIFICATIONS_HUB"
@@ -29,7 +29,7 @@ class_name = "BackupTransferRunner"
 
 [[r2_buckets]]
 binding = "ATTACHMENTS"
-bucket_name = "nodewarden-attachments"
+bucket_name = "password-mannage"
 
 [[migrations]]
 tag = "v1-notifications-hub"
